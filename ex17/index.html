@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Matemática</title>
+</head>
+<body>
+    <form id="quizForm">
+  <div class="question">
+    <p>Pergunta 1: Quanto é 3 elevado ao quadrado?</p>
+    <input type="radio" id="q1a1" name="q1" value="a">
+    <label for="q1a1">a) 6</label><br>
+    <input type="radio" id="q1a2" name="q1" value="b">
+    <label for="q1a2">b) 3</label><br>
+    <input type="radio" id="q1a3" name="q1" value="c">
+    <label for="q1a3">c) 9</label><br>
+    <input type="radio" id="q1a4" name="q1" value="d">
+    <label for="q1a4">d) 12</label><br>
+  </div>
+
+  <div class="question">
+    <p>Pergunta 2: Quanto é 2 + 2?</p>
+    <input type="radio" id="q2a1" name="q2" value="a">
+    <label for="q2a1">a) 3</label><br>
+    <input type="radio" id="q2a2" name="q2" value="b">
+    <label for="q2a2">b) 4</label><br>
+    <input type="radio" id="q2a3" name="q2" value="c">
+    <label for="q2a3">c) 5</label><br>
+    <input type="radio" id="q2a4" name="q2" value="d">
+    <label for="q2a4">d) 22</label><br>
+  </div>
+
+  <button type="button" onclick="verificarRespostas()">Verificar Respostas</button>
+  <div id="resultado"></div>
+</form>
+    <script src="script.js"></script>
+</body>
+</html>

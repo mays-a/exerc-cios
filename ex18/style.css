@@ -1,0 +1,10 @@
+body {
+    background-color: lightblue;
+    transition: background-color 0.5s ease;
+}
+
+#meuBotao {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
